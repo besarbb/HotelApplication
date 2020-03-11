@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HotelApplication</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="service_question">"Sei satisfato dei servizi igienici?"</string>
+    <string name="customer_service_paragraph">We’re still young and always trying to do our best. We hope to continue and make all our guests comfortable and happy. Most of all, we hope the food &amp; beverages we serve and prepare meet your expectations and satisfy you as much as possible. To continue doing so, we sometimes need a little help &amp; encouragement from you as well.</string>
+    <string name="paragraph_to_print">Paragraph to be printed</string>
+</resources>
