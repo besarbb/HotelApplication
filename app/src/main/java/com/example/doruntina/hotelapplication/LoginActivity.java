@@ -244,12 +244,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     private boolean isEmailValid(String email) {
         //TODO: Replace this with your own logic
-        return true;
+        return mEmailView.getText().length() > 4;
     }
 
     private boolean isPasswordValid(String password) {
         //TODO: Replace this with your own logic
-        return true;
+        return mPasswordView.getText().length() > 2;
     }
 
     /**
@@ -409,7 +409,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
 
             // TODO: register the new account here.
-            return true;
+            return false;
         }
 
         @Override
